@@ -1,0 +1,24 @@
+<!DOCTYpE html>
+<head>
+    <title>Upload page</title>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    // NOTE!!! The below is specific to your Firebase project --
+    // use "Web Setup" from the Firebase "Develop" pane to get this
+    // code for your app.
+        var config = {
+            apiKey: "AIzaSyABCaBBY04zpvIl1efmOPrKwNtPkgTXfqs",
+            authDomain: "team-sidney.firebaseapp.com",
+            databaseURL: "https://team-sidney.firebaseio.com",
+            projectId: "team-sidney",
+            storageBucket: "team-sidney.appspot.com",
+            messagingSenderId: "395332355872"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+    <input id="uploadFirmwareFile" type="file">
+</body>
+</html>
