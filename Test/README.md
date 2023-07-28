@@ -1,6 +1,6 @@
 In the Frameworks you have all the frameworks from current version
 
-In ServerSide is the side that would allow you to upload the framework from web-site
+In ServerSide is the side that would allow you to upload the framework from web-site. Not finished because we handle it from extra_script.py
 
 In Test you actually have the programing:
 
